@@ -3,7 +3,7 @@ body{
     font-family: bahnschrift;
     font-weight: bolder;
     color: rgba(218, 167, 100, 0.959);
-    background-image: url(/img/giphy1.gif);
+    background-image: url(./img/giphy1.gif);
     font-size: large;
 }
 
