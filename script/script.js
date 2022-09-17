@@ -33,6 +33,4 @@ const changePhoto = (color) => {
     mainImg.innerHTML = `<img class="photo" src="${img}" alt="">`;
 };
 
-
-
-   
+  
