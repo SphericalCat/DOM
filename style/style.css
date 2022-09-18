@@ -71,30 +71,25 @@ body{
 }
 
 @media (max-width: 480px){
+    
     .container{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
-        justify-content: center;
-    }
-
-    .head{
-        border-radius: 0;
-        padding-left: 5%;
-    }
-
-    .nav{
+        display: flex;
+        flex-direction: column; 
         width: 100%;
-        margin-top: 55px;
-        margin-left: 0;
-
     }
 
-    .nav_button{
+    .img{
         width: 100%;
     }
 
     .photo, .defaultImg{
-        max-width: 480px;
+        width: 100%;
+        object-fit: contain;
         border-radius: 0;
+    }
+
+    .head{
+        width: 300px;
+        margin: 0 auto;
     }
 }
